@@ -1,0 +1,88 @@
+body{
+    background: black;
+    }
+    .nav {
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        top: 0;
+        width: 100%;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li {
+      float: left;
+      top: 0;
+    }
+    
+    li a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+      top: 0;
+      font-family: papyrus, Arial;
+      color: #808000;
+      font-size: 20px;
+    }
+    
+    li a:hover {
+      color: #890000;
+    }
+    .navtitle{
+    color: #890000;
+    margin: 20px;
+    font-family: papyrus, Arial;
+    font-size: 40px;
+    }
+    .nav {
+        background: black;
+       {
+            margin: 0px 30px;
+        }
+        &__item {
+            display: inline-block;
+            margin: 0px 30px;
+        }
+    }
+    h1 {
+    font-family: papyrus;
+    font-size: 15px;
+    width: 500px;
+    color: beige;
+    margin-left: 80px;
+    top: 0;
+    float: left;
+    vertical-align: top;
+  
+    }
+    h2 {
+    font-family: papyrus; 
+    font-size: 15px; 
+    width: 300px;  
+    color: beige;
+    margin-left: 900px;
+    margin-top: 1px;
+    }
+    .main {
+    width: 200%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    .sewer {
+    margin-left: 900px;
+    max-width: 600px;
+    max-height: 600px;
+    }
+    .coach {
+    max-width: 400px;
+    }
